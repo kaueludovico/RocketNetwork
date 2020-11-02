@@ -1,6 +1,6 @@
 {
   "name": "RocketNetwork",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of RocketNetwork.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/kaueludovico/RocketNetwork",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/kaueludovico/RocketNetwork.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "RocketNetwork/Classes/**/*"
+  "source_files": "RocketNetwork/Classes/**/*",
+  "resource_bundles": {
+    "RocketNetwork": [
+      "RocketNetwork/Assets/*.png"
+    ]
+  }
 }

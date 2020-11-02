@@ -1,7 +1,7 @@
 PODS:
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - RocketNetwork (0.1.0)
+  - RocketNetwork (1.0.0)
 
 DEPENDENCIES:
   - Nimble (~> 7.0)
@@ -9,9 +9,10 @@ DEPENDENCIES:
   - RocketNetwork (from `../`)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Quick
   trunk:
     - Nimble
-    - Quick
 
 EXTERNAL SOURCES:
   RocketNetwork:
@@ -20,8 +21,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  RocketNetwork: 703a6ec17c6560960e3001f4b84172e586a5a7f9
+  RocketNetwork: 839a270477abb9311ecbb206627ea1ea719a58e7
 
-PODFILE CHECKSUM: 3132907b3c1aafb53e81e69961f7947b285a2b7e
+PODFILE CHECKSUM: ac8572e4d30247206c2ce69b32b299504c12a747
 
 COCOAPODS: 1.9.0
